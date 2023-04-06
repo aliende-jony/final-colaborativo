@@ -173,10 +173,10 @@
     </main>
     <footer>
       <div class="grupo5">
-        <h2 class="Foot">Quienes somos</h2>
-        <p>
-          Somos estudiantes del curso <strong>Desarrollo web inicial</strong> brindado por
-          la UTN Mar del plata e impulsado por
+        <h2 class="foot">Quienes somos</h2>
+        <p class="fot">
+          Somos estudiantes de <strong>Desarrollo web inicial</strong>  
+          brindado por la UTN Mar del plata e impulsado por
           <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">Argentina programa 4.0 </a>; Se trata de un programa nacional y federal que tiene como objetivo
           capacitar a personas en lenguajes y conocimientos sobre programación,
           testing y habilidades digitales para potenciar la empleabilidad en el
@@ -207,19 +207,21 @@
             />
           </div>
           <div class="inputContainer">
-            <label for="Email">Ingrese su Email</label>
+            <label for="textarea">Mensaje</label>
             <input
-              type="Email"
-              name="Email"
-              placeholder="example@..."
-              id="Email"
+              type="textarea"
+              name="textarea"
+              placeholder="escriba su mensaje aqui..."
+              id="textarea"
             />
           </div>
+          <div class="envio">
           <input type="submit" value="enviar" class="enviar-btn" />
+          <span class="gracias">Gracias por tu mensaje!</span>
+        </div>
         </form>
       </div>
     </footer>
     <script src="./script.js"></script>
-    <span>Gracias por tu mensaje!</span>
   </body>
 </html>
