@@ -16,7 +16,7 @@ header{
     font-size: 80px;
     height: 12rem;
     width: 100%;
-    gap: 40rem;
+    gap: 20rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,30 +25,34 @@ header{
     padding: 2vh 4vw;
 }
 h1{
-    font-size: 40px;
-    width: 10rem;
+    font-size: 80px;
     display: flex;
-    align-items: center;
 }
 
 nav{
-    width: 30%;
     display: flex;
     justify-content: center;
     align-items:center;
     color: #F5F5F5;
     background-color: #1B1B1D;
-    gap: 10px;
+    gap: 2px;
 }
-a:hover{              
-    background-color:#323234;
+nav a{
+    color: #F5F5F5;
+}
+.log:hover{              
+    background-color:#F5F5F5;
+    color:#1B1B1D;
     border: 20rem;
     border-radius: .5rem;
 }
+a:hover{
+    color: black;
+}
 
-header a{
+header i{
     background-color: #1B1B1D;
-    font-size: 30px;
+    font-size: 70px;
     color: white;
     text-decoration: none;
 }
@@ -68,6 +72,8 @@ main{
     width: 90%;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 .Q{
 
@@ -123,10 +129,11 @@ ul{
     background-color: white;
     width: 30rem;
     height: 40rem;
+    border-radius: 10px;
 } 
 .phone:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 1px 2px #1B1B1D;
+    box-shadow: 3px 3px 3px 3px #1B1B1D;
     transition: .2s ease;
 }
 /*.imgPhoneS{
@@ -211,11 +218,12 @@ a{
     
 }
 .enviar-btn:hover{
-    transition: 1s ease-in-out;
+    transition: 0.2s ease-in-out;
     background-color: white;
     color: black;
     border: 1px black solid;
     border-bottom: 5px;
+    cursor: pointer;
 }
 .envio{
     display: flex;
