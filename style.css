@@ -40,16 +40,12 @@ nav{
 nav a{
     color: #F5F5F5;
 }
-.log:hover{              
+a:hover{              
     background-color:#F5F5F5;
     color:#1B1B1D;
     border: 20rem;
     border-radius: .5rem;
 }
-a:hover{
-    color: black;
-}
-
 header i{
     background-color: #1B1B1D;
     font-size: 70px;
@@ -85,6 +81,9 @@ p{
     padding: 0.5rem;
     font-size: large;
     font-weight:500;
+}
+.a-h{
+    color: blueviolet;
 }
 ul{
     padding-left: 2rem;
@@ -133,7 +132,7 @@ ul{
 } 
 .phone:hover{
     cursor: pointer;
-    box-shadow: 3px 3px 3px 3px #1B1B1D;
+    box-shadow: 3px 3px 0.5px #1B1B1D;
     transition: .2s ease;
 }
 /*.imgPhoneS{
@@ -180,8 +179,8 @@ footer {
     padding-top: 3rem;
 }
 a{
-    color: aqua;
-    text-decoration: none;
+    color:aqua;
+    text-decoration:none;
 }
 .contac{
     width: 50%;
