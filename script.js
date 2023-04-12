@@ -1,26 +1,18 @@
+const contenedor = document.getElementById("contenedor")
+fetch("./database.json")
+.then(Response => Response.json())
 
-
-
-const formularioHTML = document.getElementById("form")
-formularioHTML.addEventListener("submit", (event ) =>{
-    event.preventDefault()
-    console.log(event)
-    console.log(formularioHTML.name.value)
-    console.log(formularioHTML.correoElectronico.value)
-    formularioHTML.reset()
+.then(data =>{
+    for (const producto of data) {
+        contenedor.innerHTML += `
+    <div class="phone" >
+        <img class="imgPhone" src=${producto.imagen}/>
+        <h2>$${producto.price}</h2>
+        <h3>${producto.cuotas}</h3>
+        <p>${producto.procesador}</p>
+        <h4>${producto.name} -<br> ${producto.modelo}</h4>
+        <button>Comprar</button>
+       
+    </div>        `
+    }
 })
-
-fetch("./productos.json")
-    .then(response => response.json())
-    .then(data => {
-
-        for(const producto of data){
-            contenedor.innerHTML += `
-            <div>
-                <h2>${producto.name}</h2>
-                <p>Price: $${producto.price}</p>
-            </div>
-            `
-        }
-    })
-
