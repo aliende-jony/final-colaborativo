@@ -8,13 +8,15 @@
         <title>Grupo 5</title>
     </head>
     <body>
-        <header>
-            <i class="bi bi-phone"></i>
-            <h1>G5 Store</h1>
-            <nav>
-        <i class="bi bi-person-circle log"> <a href="">Login</a> </i>
-    </nav>
-        </header>
+      <header>
+        <i class="bi bi-phone"></i>
+        <h1>G5 Store</h1>
+        <div class="Carrito"><i class="bi bi-cart2"id="carritoVacio"></i></div>
+        <button class="btn-bag-fill"id="btnBagFill"><i class="bi bi-cart-plus"id="carritoLleno"></i></button>
+        <nav>
+      <!-- <a href=""><i class="bi bi-person-circle log">Login</i></a> -->
+        </nav>
+    </header>
         <main>
             <section class="presentation">
                 <div class="presentationG5">
@@ -75,24 +77,26 @@
                 id="email"
                 />
             </div>
-            <div class="inputContainer">
+            
                 <label for="textarea">Mensaje</label>
                 <textarea 
                 id="textarea" 
                 rows="8" 
                 name="textarea" 
-                cols="60" 
-                placeholder="esciba su mensaje..." 
+                cols="20" 
+                placeholder="escriba su mensaje..." 
                 class="textarea">
                 </textarea>
-            </div>
+            
             <div class="envio">
                 <input type="submit" value="enviar" class="enviar-btn" />
                 <span class="gracias">Gracias por tu mensaje!</span>
             </div>
             </form>
+            <div id="contenedorMensajes"></div>
             </div>
     </footer>
+    
     <script src="./script.js"></script>
 </body>
 </html>

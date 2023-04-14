@@ -9,8 +9,10 @@
         "bateria":"Batería de 5000mAh.",
         "memoriainterna":"Memoria interna de 128GB.",
         "resistente":"Resistente al agua",
-        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-a53-5g-a536-sm-a536ezkaaro-531544682?$650_519_PNG$"
-
+        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-a53-5g-a536-sm-a536ezkaaro-531544682?$650_519_PNG$", 
+        "alt":"imagen de un celular color negro con pantalla con colores azules y rosa",
+        "boton":"btn-comprar-1"
+        
 
     },
     {
@@ -23,7 +25,9 @@
         "bateria":"Batería de 5000mAh.",
         "memoriainterna":"Memoria interna de 128GB.",
         "resistente":"No Resistente al agua",
-        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a225mzkearo/gallery/ar-galaxy-a22-a225-sm-a225mzkearo-472118856?$650_519_PNG$"
+        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a225mzkearo/gallery/ar-galaxy-a22-a225-sm-a225mzkearo-472118856?$650_519_PNG$",
+        "alt":"imagen de un celular con esferas de varios colores en la pantalla",
+        "boton":"btn-comprar-2"
 
     },
     {
@@ -36,7 +40,10 @@
         "bateria":"Batería de 5000mAh.",
         "memoriainterna":"Memoria interna de 128GB",
         "resistente":"Resistente al agua",
-        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-m236bzgkaro/gallery/ar-galaxy-m23-5g-sm-m236-sm-m236bzgkaro-532430396?$650_519_PNG$"
+        "imagen":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-m236bzgkaro/gallery/ar-galaxy-m23-5g-sm-m236-sm-m236bzgkaro-532430396?$650_519_PNG$",
+        "alt":"imagen de un celular gris con imagenes de cubos y roca en la pantalla",
+        "boton":"btn-comprar-3"
+
     },
     {
         "name": "Apple",
@@ -48,7 +55,9 @@
         "bateria":"Batería para todo el día y hasta 26 horas de reproducción de vídeo.",
         "memoriainterna":"6 GB.",
         "resistente":"Resistente al agua",
-        "imagen":"https://cdn.shopify.com/s/files/1/0632/7880/9324/products/IMG-7379940_823x.jpg?v=1678469580"
+        "imagen":"https://cdn.shopify.com/s/files/1/0632/7880/9324/products/IMG-7379940_823x.jpg?v=1678469580",
+        "alt":"imagen de un celular rojo con formas redondeadas de distintos colores en la pantalla",
+        "boton":"btn-comprar-4"
     },
     {
         "name": "Apple",
@@ -60,7 +69,10 @@
         "bateria":"Batería mini: 2.227 mAh",
         "memoriainterna":"6 GB.",
         "resistente":"Resistente al agua",
-        "imagen":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71hIfcIPyxS._SL1500_.jpg"
+        "imagen":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71hIfcIPyxS._SL1500_.jpg",
+        "alt":"imagen de un celular lila con circulos violetas y rosas en la pantalla",
+        "boton":"btn-comprar-5"
+
     },
     {
         "name": "Xiaomi",
@@ -72,7 +84,9 @@
         "bateria":"Batería de 5000mAh.",
         "memoriainterna":"Memoria interna de 128GB",
         "resistente":"Resistente al polvo.",
-        "imagen":"https://cdn-xiaomi.waugi.com.ar/1940-home_default/redmi-note-11-4gb-ram-128gb-rom.jpg"
+        "imagen":"https://cdn-xiaomi.waugi.com.ar/1940-home_default/redmi-note-11-4gb-ram-128gb-rom.jpg",
+        "alt":"imagen de un celular celeste con formas redondeadas de varios colores en la pantalla",
+        "boton":"btn-comprar-6"
     },
     {
         "name": "Xiaomi",
@@ -84,7 +98,10 @@
         "bateria":"Batería de 4500mAh con carga inalámbrica.",
         "memoriainterna":"Batería de 5000mAh.",
         "resistente":"Resistente al agua",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_673733-MLA53467945660_012023-O.jpg"
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_673733-MLA53467945660_012023-O.jpg",
+        "alt":"imagen de un celular color celeste con imagenes circulares de tonos azules y escrito Readmi Note 12 Pro en la pantalla",
+        "boton":"btn-comprar-7"
+
         
     },
     {
@@ -97,7 +114,10 @@
         "bateria":"Batería de 4020mAh con carga inalámbrica.",
         "memoriainterna":"Batería de 5000mAh.",
         "resistente":"Resistente a las salpicaduras.",
-        "imagen":"https://www.itecomdigital.com.ar/wp-content/uploads/2022/08/Diseno-sin-titulo-1.jpg"
+        "imagen":"https://www.itecomdigital.com.ar/wp-content/uploads/2022/08/Diseno-sin-titulo-1.jpg",
+        "alt":"imagen de un celular gris con imagenes fluctuantes de colores varios en la pantalla",
+        "boton":"btn-comprar-8"
+
     },
     {
         "name": "Motorola",
@@ -109,6 +129,9 @@
         "bateria":"Batería de 4020mAh con carga inalámbrica.",
         "memoriainterna":"Batería de 5000mAh.",
         "resistente":"Con reconocimiento facial y sensor de huella dactilar.",
-        "imagen":"https://http2.mlstatic.com/D_NQ_NP_604554-MLA48039543212_102021-O.jpg"
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_604554-MLA48039543212_102021-O.jpg","alt":" imagen de un celular gris oscuro, con el logo de Motorola y algunas ondas negras y otros colores en la pantalla",
+        "boton":"btn-comprar-9"
+
+
     }
 ]

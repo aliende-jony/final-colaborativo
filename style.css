@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@300;500&display=swap');
 
+
 *{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto-regular', sans-serif;
@@ -12,46 +13,60 @@
     width: 100%;
 }
 header{
-    font-size: 80px;
-    height: 12rem;
     width: 100%;
-    gap: 20rem;
+    height: 7em;
+    gap: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1B1B1D;
     color: #F5F5F5;
-    padding: 2vh 4vw;
+    padding: 2em;
+}
+.bi-phone{
+    font-size: 4em;
 }
 h1{
-    font-size: 80px;
-    display: flex;
+    font-size: 3em;
 }
 
 nav{
+    font-size: 1.5em;
+    width: 20em;
     display: flex;
     justify-content: center;
     align-items:center;
     color: #F5F5F5;
     background-color: #1B1B1D;
-    gap: 2px;
 }
 nav a{
     color: #F5F5F5;
 }
-.log:hover{              
+.Carrito{
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+.btn-pagar{
+    display: none;
+} 
+.btn-bag-fill{
+    width: auto;
+    background-color: #1B1B1D;
+    border: none;
+    display: none;
+}
+/*a:hover{
+    color: black;
     background-color:#F5F5F5;
     color:#1B1B1D;
-    border: 20rem;
-    border-radius: .5rem;
-}
-a:hover{
-    color: black;
-}
+    border: 10px;
+    border-radius: 5px;
+}*/
 
 header i{
     background-color: #1B1B1D;
-    font-size: 70px;
+    font-size: 1em;
     color: white;
     text-decoration: none;
 }
@@ -59,16 +74,18 @@ header i{
 
 main{
     width: 100%;
+    
 }
 
 .presentation{
+    width: 100%;
     display: flex;
     background-color: #F5F5F5;
-    padding: 3rem;
+    padding: 5em;
 }
 .presentationG5{
-    padding: 2rem;
-    width: 90%;
+    padding: 3em;
+    width: 60%;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -78,37 +95,39 @@ main{
     display: flex;
     justify-content: center;
     font-size:40px;
+    padding-bottom: 0.8em;
 }
 .a-presentacion{
     font-size: 25px;
     color: blueviolet;
 }
 p{
-    padding: 0.5rem;
-    font-size: 25px;
-    font-weight:500;
+    font-size: 23px;
 }
 ul{
-    padding-left: 2rem;
+    padding-left: 1.3em;
     font-size: x-large;
-    
 }
 
 
 .logo{
-    margin: 1rem;
-    padding: 0.2rem;
-    width: 50%;
+    width: 40%;
+    height: 25em;
+    margin: 0.5em;
+    padding: 0.2em;
     background-color:white;
     border: none;
     border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .logo img{
-    padding: 2rem;
-    width: 40rem;
-    height: 25rem;
-    
+    padding: 0.5em;
+    border-radius: 30px;
+    height: 90%;
+    display: block;
 
 }
 
@@ -127,41 +146,50 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 2.5rem;
     background-color: white;
     width: 30rem;
     height: 40rem;
     border-radius: 10px;
+    text-align: center;
 } 
 .phone:hover{
     cursor: pointer;
     box-shadow: 2px 2px 0.2px #1B1B1D ;
     transition: .2s ease-in-out;
 }
-/*.imgPhoneS{
-    width: 30rem;
-    height: 26rem;
+.phoneConteiner{
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-}*/
+}
 .imgPhone{
-    width: 20.5rem;
-    
+    width: auto;
+    height: 100%;  
 }
 h2{
     font-size: 35px;
 }
-
+.btn-comprar{
+    margin: 2px;
+    height: 25px;
+    width: 125px;
+    background-color: rgb(112, 105, 105);
+    color: white;
+    border-radius: 7px;
+    
+}
+.btn-comprar:hover{
+    cursor: pointer;
+}
 
 footer {
+    width: 100%;
+    padding: 4rem 10rem;
+    gap: 15rem;
     display: flex;
-    justify-content: space-between;
     background-color: #1B1B1D;
     color: #F5F5F5;
-    padding: 10vh 4vw;
-    width: 100%;
-    gap: 15rem;
 }
 .grupo5{
     display: flex;
@@ -171,7 +199,6 @@ footer {
     width: 50%;
 }
 .foot{
-    padding: 0;
     display: flex;
     justify-content:left;
     align-items: center;
@@ -179,7 +206,7 @@ footer {
 .fot{
     font-size: 25px;
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 2em;
 }
 a{
     color: aqua;
@@ -239,6 +266,15 @@ a{
 .envio .gracias{
     display: flex;
     justify-content: end;
+}
+.Uexitoso{
+    margin-top: 10px;
+    padding: 3px;
+    gap: 2px;
+    display: flex;
+    border:none;
+    background-color: rgb(10, 10, 10);
+    border-radius: 8px;
 }
 
 
