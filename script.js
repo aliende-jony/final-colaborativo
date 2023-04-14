@@ -64,7 +64,7 @@ const renderizarMensajes=() => {
         contenedorHTML.innerHTML += `
         <div class="Uexitoso" d-none>
         <h2>nombre:${mensaje.nombre}</h2>
-        <p>mensaje:${mensaje.textarea}</p>
+        <p>mensaje:${mensaje.mensaje}</p>
         </div>
         `
     }

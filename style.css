@@ -277,5 +277,14 @@ a{
     border-radius: 8px;
 }
 
-
+@media (max-width : 576px){
+    footer{
+        display:flex;
+        flex-direction: column;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
